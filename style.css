@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    background-color: rgb(207, 115, 230);
+    justify-content : center;
+}
+.boite{
+    display: flex;
+    padding: 30px;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 70%;
+    justify-content: space-around;
+    gap: 10px;
+}
+.boite2{
+    display: flex;
+    flex-direction: column;
+}
+.texte2{
+    margin-top: 15px;
+    padding: 20px;
+    background-color: rgb(39, 39, 39, 1);
+    border-left: solid;
+    border-color:deeppink ;
+    border-width: 10px;
+    border-radius: 20px;
+    width: 70%;
+    height: 90%;
+
+}
+span{
+    color: deeppink;
+    font-weight: 700;
+}
+.boite3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+}
+.bouton1, .bouton2, .bouton3{
+    padding: 10px;
+    color: #51DD6B;
+    border-radius: 20px;
+    padding:15px;
+    background-color:rgba(95, 255, 73, 0.13);
+    border: #51DD6B 1px ;
+}
+.bouton{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15%;
+}
+
